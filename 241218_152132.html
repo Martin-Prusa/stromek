@@ -1,0 +1,284 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+    <style>
+* {
+  box-sizing: border-box;
+}
+body, button, input {
+  background-color: #ffffee;
+  font-size:20px;
+}
+
+.header, .footer {
+  background-color: maroon;
+  color: white;
+  padding: 2px;
+}
+
+.column {
+  float: left;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.popis {
+  width: 28%;
+  padding: 5px;
+}
+
+.content {
+ position: static;
+  width: 70%;
+}
+
+</style>
+    <script type='text/javascript' src='https://www.x3dom.org/download/x3dom.js'> </script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/x3dom.css'/>	</head>
+	<body>
+    <div class="header">      &nbsp;    </div>
+    <div class="clearfix">
+    <div class="column popis"> 
+     <form >
+     <p><label for="fname">Scéna:</label></p>
+       <textarea name="vstup" id="vstup" rows="40" cols="60" style="height:70vh; width:100%;">
+ver 1.0
+C  S 5.000000 0.200000 5.000000  C 0.000000 1.000000 0.000000 
+C P 0.000000 0.200000 0.000000 S 4.900000 0.200000 4.900000  C 0.000000 1.000000 0.000000 
+C P 0.000000 0.400000 0.000000 S 4.800000 0.200000 4.800000  C 0.000000 1.000000 0.000000 
+C P 0.000000 0.600000 0.000000 S 4.700000 0.200000 4.700000  C 0.000000 1.000000 0.000000 
+C P 0.000000 0.800000 0.000000 S 4.600000 0.200000 4.600000  C 0.000000 1.000000 0.000000 
+C P 0.000000 1.000000 0.000000 S 4.500000 0.200000 4.500000  C 0.000000 1.000000 0.000000 
+C P 0.000000 1.200000 0.000000 S 4.400000 0.200000 4.400000  C 0.000000 1.000000 0.000000 
+C P 0.000000 1.400000 0.000000 S 4.300000 0.200000 4.300000  C 0.000000 1.000000 0.000000 
+C P 0.000000 1.600000 0.000000 S 4.200000 0.200000 4.200000  C 0.000000 1.000000 0.000000 
+C P 0.000000 1.800000 0.000000 S 4.100000 0.200000 4.100000  C 0.000000 1.000000 0.000000 
+C P 0.000000 2.000000 0.000000 S 4.000000 0.200000 4.000000  C 0.000000 1.000000 0.000000 
+C P 0.000000 2.200000 0.000000 S 3.900000 0.200000 3.900000  C 0.000000 1.000000 0.000000 
+C P 0.000000 2.400000 0.000000 S 3.800000 0.200000 3.800000  C 0.000000 1.000000 0.000000 
+C P 0.000000 2.600000 0.000000 S 3.700000 0.200000 3.700000  C 0.000000 1.000000 0.000000 
+C P 0.000000 2.800000 0.000000 S 3.600000 0.200000 3.600000  C 0.000000 1.000000 0.000000 
+C P 0.000000 3.000000 0.000000 S 3.500000 0.200000 3.500000  C 0.000000 1.000000 0.000000 
+C P 0.000000 3.200000 0.000000 S 3.400000 0.200000 3.400000  C 0.000000 1.000000 0.000000 
+C P 0.000000 3.400000 0.000000 S 3.300000 0.200000 3.300000  C 0.000000 1.000000 0.000000 
+C P 0.000000 3.600000 0.000000 S 3.200000 0.200000 3.200000  C 0.000000 1.000000 0.000000 
+C P 0.000000 3.800000 0.000000 S 3.100000 0.200000 3.100000  C 0.000000 1.000000 0.000000 
+C P 0.000000 4.000000 0.000000 S 3.000000 0.200000 3.000000  C 0.000000 1.000000 0.000000 
+C P 0.000000 4.200000 0.000000 S 2.900000 0.200000 2.900000  C 0.000000 1.000000 0.000000 
+C P 0.000000 4.400000 0.000000 S 2.800000 0.200000 2.800000  C 0.000000 1.000000 0.000000 
+C P 0.000000 4.600000 0.000000 S 2.700000 0.200000 2.700000  C 0.000000 1.000000 0.000000 
+C P 0.000000 4.800000 0.000000 S 2.600000 0.200000 2.600000  C 0.000000 1.000000 0.000000 
+C P 0.000000 5.000000 0.000000 S 2.500000 0.200000 2.500000  C 0.000000 1.000000 0.000000 
+C P 0.000000 5.200000 0.000000 S 2.400000 0.200000 2.400000  C 0.000000 1.000000 0.000000 
+C P 0.000000 5.400000 0.000000 S 2.300000 0.200000 2.300000  C 0.000000 1.000000 0.000000 
+C P 0.000000 5.600000 0.000000 S 2.200000 0.200000 2.200000  C 0.000000 1.000000 0.000000 
+C P 0.000000 5.800000 0.000000 S 2.100000 0.200000 2.100000  C 0.000000 1.000000 0.000000 
+C P 0.000000 6.000000 0.000000 S 2.000000 0.200000 2.000000  C 0.000000 1.000000 0.000000 
+C P 0.000000 6.200000 0.000000 S 1.900000 0.200000 1.900000  C 0.000000 1.000000 0.000000 
+C P 0.000000 6.400000 0.000000 S 1.800000 0.200000 1.800000  C 0.000000 1.000000 0.000000 
+C P 0.000000 6.600000 0.000000 S 1.700000 0.200000 1.700000  C 0.000000 1.000000 0.000000 
+C P 0.000000 6.800000 0.000000 S 1.600000 0.200000 1.600000  C 0.000000 1.000000 0.000000 
+C P 0.000000 7.000000 0.000000 S 1.500000 0.200000 1.500000  C 0.000000 1.000000 0.000000 
+C P 0.000000 7.200000 0.000000 S 1.400000 0.200000 1.400000  C 0.000000 1.000000 0.000000 
+C P 0.000000 7.400000 0.000000 S 1.300000 0.200000 1.300000  C 0.000000 1.000000 0.000000 
+C P 0.000000 7.600000 0.000000 S 1.200000 0.200000 1.200000  C 0.000000 1.000000 0.000000 
+C P 0.000000 7.800000 0.000000 S 1.100000 0.200000 1.100000  C 0.000000 1.000000 0.000000 
+C P 0.000000 8.000000 0.000000 S 1.000000 0.200000 1.000000  C 0.000000 1.000000 0.000000 
+C P 0.000000 8.200000 0.000000 S 0.900000 0.200000 0.900000  C 0.000000 1.000000 0.000000 
+C P 0.000000 8.400000 0.000000 S 0.800000 0.200000 0.800000  C 0.000000 1.000000 0.000000 
+C P 0.000000 8.600000 0.000000 S 0.700000 0.200000 0.700000  C 0.000000 1.000000 0.000000 
+C P 0.000000 8.800000 0.000000 S 0.600000 0.200000 0.600000  C 0.000000 1.000000 0.000000 
+C P 0.000000 9.000000 0.000000 S 0.500000 0.200000 0.500000  C 0.000000 1.000000 0.000000 
+C P 0.000000 9.200000 0.000000 S 0.400000 0.200000 0.400000  C 0.000000 1.000000 0.000000 
+C P 0.000000 9.400000 0.000000 S 0.300000 0.200000 0.300000  C 0.000000 1.000000 0.000000 
+C P 0.000000 9.600000 0.000000 S 0.200000 0.200000 0.200000  C 0.000000 1.000000 0.000000 
+C P 0.000000 9.800000 0.000000 S 0.100000 0.200000 0.100000  C 0.000000 1.000000 0.000000 
+C P 0.000000 10.000000 0.000000 S 0.000000 0.200000 0.000000  C 0.000000 1.000000 0.000000 
+C  S 1.000000 3.000000 1.000000  C 0.500000 0.200000 0.000000 
+B P 0.000000 -3.000000 0.000000 S 10.000000 0.010000 10.000000  C 0.000000 1.000000 0.000000 
+</textarea>    
+      <p><input type="button" value="Zobraz" onclick="uklid();init();dopln(data);"></p>   <!--location.reload(); x3dom.reload(); -->
+     </form>
+    </div>
+
+    <div class="column content">
+	<p>3D view: &nbsp;&nbsp; <a href="https://projektor.geometry.cz">Projektor</a></p>
+	<X3D id='skladacka' height="70vh" >     <!-- width="900" height="500"-->
+  <Scene DEF='scene'>
+
+<!--------------------Tohle je misto na nove tvary ------------------->
+    
+    <Group visible='false' id="uzivatelske">     
+    </Group>
+    
+<!----------------------KONEC -------------------->
+   
+        <WorldInfo title='Prototyp sceny'></WorldInfo>
+        <Viewpoint id="front" description='Zpredu' orientation='1 0 0 -0.13' position='0 2.3 15' fieldOfView='0.55' bind='true'></Viewpoint>
+        <Viewpoint id="top" description='Shora' orientation='1 0 0 -1.7' position='0 12 -1' fieldOfView='0.5'></Viewpoint>
+        <Viewpoint id="left" position="-12 0 -1" orientation="0 1 0 -1.7" description='Zleva'></Viewpoint>
+        <Viewpoint id="right" position="12 0 -1" orientation="0 1 0 1.7" description='Zprava'></Viewpoint>
+        <Background groundAngle='0.05 1.52 1.56 1.5707' groundColor='0.5 0.8 0 0.5 0.8 0 0.5 0.8 0.3 0.2 0.8 0.2 0 0.8 0.2' skyAngle='0.04 0.05 0.1 1.309 1.570' skyColor='0.8 0.8 0.2 0.8 0.8 0.2 0.1 0.1 0.6 0.1 0.1 0.6 0.1 0.25 0.8 0.6 0.6 0.9'/></Background>
+        <NavigationInfo id="navidef" type='"any"' bind='true'></NavigationInfo>
+        <NavigationInfo id="navilook" type='"lookat"'></NavigationInfo>
+	    <NavigationInfo id="naviwalk" type='"walk"'></NavigationInfo>
+	    <NavigationInfo id="navifly" type='"fly"'></NavigationInfo>
+        <NavigationInfo id="naviexp" type='"explore"'></NavigationInfo>
+	    <NavigationInfo id="navinone" type='"none"'></NavigationInfo>
+        
+<!--------------------Tohle scena prelozena z vygenerového py ------------------->
+        <Group>
+        <Group id="semPridat">
+        </Group>
+        <DirectionalLight ambientIntensity='0' color='1,1,0.5' direction='-0.4,-0.8,-1' global='true' intensity='0.5' on='true' shadowCascades='1' shadowFilterSize='20' shadowIntensity='0.5' shadowMapSize='4096' shadowOffset='0.8' shadowSplitFactor='0.9' shadowSplitOffset='0.05' zFar='-1' zNear='-1' ></DirectionalLight> 
+        </Group>
+<!----------------------KONEC -------------------->
+
+      </Scene>
+  	</X3D>
+    <p style="display:inline-block; width:40%;">
+    <button onclick="document.getElementById('front').setAttribute('set_bind','true');">Front</button>
+    <button onclick="document.getElementById('top').setAttribute('set_bind','true');">Top</button>
+    <button onclick="document.getElementById('left').setAttribute('set_bind','true');">Left </button>
+    <button onclick="document.getElementById('right').setAttribute('set_bind','true');">Right </button>
+    <button onclick="vychozi()">Def</button>
+    </p>
+    <p style="display:inline-block; text-align: right; width:59%;">
+    <button onclick="document.getElementById('navidef').setAttribute('set_bind','true');gonavidef();">DEFAULT</button>
+    <button onclick="document.getElementById('navilook').setAttribute('set_bind','true');">LOOK-AT</button>
+    <button onclick="document.getElementById('naviwalk').setAttribute('set_bind','true');">WALK</button>
+    <button onclick="document.getElementById('navifly').setAttribute('set_bind','true');">FLY </button>
+    <button onclick="document.getElementById('naviexp').setAttribute('set_bind','true');">EXPLORE </button>
+    <button onclick="document.getElementById('navinone').setAttribute('set_bind','true');">NONE</button>
+    </p>
+    </div>
+    </div>
+    <div class="footer">&nbsp;</div>
+    
+    <script type="text/javascript">
+      var maxz = 0;
+      var vdefinici = false;
+      var ntvar = document.createElement('Null');
+      var noveId = '';
+      var data = '';
+      var pk = '0 2.3 15';
+      var ZNAK_KVADR = "C";
+      var ZNAK_VALEC = "Y";
+      var ZNAK_KOULE = "S";
+      
+      function vychozi(){
+      document.getElementById('front').setAttribute('set_bind','true');document.getElementById('front').setAttribute('position',pk);
+      }
+      
+      function gonavidef(){ 
+      //document.getElementById('front').setAttribute('position','0, 2.3 '+(maxz+15).toString());
+      document.getElementById('front').setAttribute('orientation','1 0 0 -0.13');
+      document.getElementById('front').setAttribute('fieldOfView','0.55');
+      document.getElementById('front').setAttribute('set_bind','true');
+      }      
+
+      function init() {
+      data=document.getElementById('vstup').value;
+      }
+      
+      function loadItems(radek){
+         PI = 3.14159265358;
+         parms=radek.split(" ");
+         
+         if (parms[0]=="DEF"){
+         vdefinici = true;    
+         var ntvar = document.createElement('Group');
+         ntvar.setAttribute('DEF', parms[1]);
+         ntvar.setAttribute('id', parms[1]);
+         noveId = parms[1];
+         uzivatelske.appendChild(ntvar);
+         } 
+         else if (parms[0]=="ENDDEF"){ vdefinici = false;
+         }
+         else if (parms[0]=="M"){ iP = parms.indexOf('P',1); if (iP<0){pk = '0 2.3 15'}  else {pk = ' ' + parms[iP+1] + ' ' +  parms[iP+2] + ' ' + -parms[iP+3];}
+         } 
+         else {          
+         iP = parms.indexOf('P',1); if (iP<0){p = '0 0 0'}  else {p = ' ' + parms[iP+1] + ' ' +  parms[iP+2] + ' ' + -parms[iP+3];}
+         iS = parms.indexOf('S',1); if (iS<0){s = '1 1 1'}  else {s = ' ' + parms[iS+1] + ' ' +  parms[iS+2] + ' ' + parms[iS+3];}
+         iC = parms.indexOf('C',1); if (iC<0){c = '1 1 1'}  else {c = ' ' + parms[iC+1] + ' ' +  parms[iC+2] + ' ' + parms[iC+3];}
+         iR = parms.indexOf('R',1); if (iR<0){ rx = '1 0 0 0'; ry = '0 1 0 0'; rz = '0 0 1 0'}  
+         else { 
+         rx = '1 0 0 '+ parms[iR+1]/180*(-PI);
+         ry = '0 1 0 '+ parms[iR+2]/180*(-PI);
+         rz = '0 0 1 '+ parms[iR+3]/180*PI;  
+         }         
+         var uzel = document.createElement('Transform');
+         uzel.setAttribute('translation', ' ' + p);
+         uzel.setAttribute('rotation', ry);
+         var tra2 = document.createElement('Transform');
+         tra2.setAttribute('rotation', rx);
+         uzel.appendChild(tra2);
+         var tra3 = document.createElement('Transform');
+         tra3.setAttribute('rotation', rz);
+         tra3.setAttribute('scale', ' ' + s);
+         tra2.appendChild(tra3);
+         var prvek = document.createElement('Shape');
+         if (parms[0].length>1){
+         prvek.setAttribute('USE', parms[0]);
+         prvek.setAttribute('visible', 'true');
+         } else { 
+            var vzhled = document.createElement('Appearance');
+            var material = document.createElement('Material'); material.setAttribute('diffuseColor', ' '+ c);
+            
+            if (parms[0]==ZNAK_KOULE){var geometrie = document.createElement('Sphere'); geometrie.setAttribute('radius', '0.5');}
+            else if (parms[0]==ZNAK_KVADR){var geometrie = document.createElement('Box'); geometrie.setAttribute('size', '1,1,1');}     
+            else if (parms[0]==ZNAK_VALEC){var geometrie = document.createElement('Cylinder'); geometrie.setAttribute('radius', '0.5'); geometrie.setAttribute('height','2.0');}
+            else {var geometrie = document.createElement('Sphere'); geometrie.setAttribute('radius', '0.01');}
+            vzhled.appendChild(material);
+            prvek.appendChild(vzhled);
+            prvek.appendChild(geometrie);
+         }
+         tra3.appendChild(prvek); 
+         if (vdefinici){document.getElementById(noveId).appendChild(uzel); 
+         }  else {semPridat.appendChild(uzel);}        
+         }
+         }
+         
+         function uklid(){
+         var grtyp = document.getElementById("uzivatelske");
+         while (grtyp.firstChild) {
+           pryc = grtyp.removeChild(grtyp.firstChild);
+         }
+         var grsc = document.getElementById("semPridat");
+         while (grsc.firstChild) {
+           pryc = grsc.removeChild(grsc.firstChild);
+         }
+         }
+
+        function dopln(data) {
+        var lines = data.split('\n'); 
+        ZNAK_KVADR = "C";
+        ZNAK_VALEC = "Y";
+        ZNAK_KOULE = "S";
+        var zacatek = 0;
+        while(lines[zacatek].trim().length==0){zacatek++;}  
+        if (lines[zacatek].startsWith("ver")){ 
+             ZNAK_KVADR = "B";
+             ZNAK_VALEC = "C";
+             ZNAK_KOULE = "S";
+             zacatek++;
+        }
+        // if (lines[zacatek]=="G"){zacatek++;} //zatim ignoruji gravitaci
+              
+        for (i=0; i<lines.length; i++) {
+            linka=lines[i].trim(); 
+            if (linka.length>0 && linka!="G"){loadItems(linka);}
+            }
+        }
+        
+      init();
+      dopln(data);
+      document.getElementById('front').setAttribute('position',pk);
+    </script>     
+	</body>
+</html>         

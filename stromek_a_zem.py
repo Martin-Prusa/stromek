@@ -1,8 +1,8 @@
 # Vytvoření jehlanu na různých pozicích
 def vykresli_stromek_a_zem(st):
     def Hvezda():
-    st.Kvadr( x=0,y=10,z=0, sx=0.7, sy=2, sz=2, rx=45, ry=0, rz=0, barva=(2,1,0), vaha=0 )
-    st.Kvadr( x=0,y=10,z=0, sx=0.7, sy=2, sz=2, rx=0, ry=0, rz=0, barva=(2,1,0), vaha=0 )
+        st.Kvadr( x=0,y=10,z=0, sx=0.7, sy=2, sz=2, rx=45, ry=0, rz=0, barva=(2,1,0), vaha=0 )
+        st.Kvadr( x=0,y=10,z=0, sx=0.7, sy=2, sz=2, rx=0, ry=0, rz=0, barva=(2,1,0), vaha=0 )
 
     def Banka(velikost, barvicka, px,py,pz):
         st.Koule( x=px,y=py,z=pz, sx=velikost, sy=velikost, sz=velikost, rx=0, ry=0, rz=0, barva = barvicka, vaha=0 )
