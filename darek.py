@@ -1,4 +1,4 @@
-def vykresli_darek(st, x, y, velikost=1, barva_darku=(1, 0, 0), barva_masle=(1, 1, 0)):
+def vykresli_darek(st, x, y, z, velikost=1, barva_darku=(1, 0, 0), barva_masle=(1, 1, 0)):
     """
     Metoda vykrteslí dárek
 
